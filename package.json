@@ -4,7 +4,9 @@
   "description": "Initial test for the role of NodeJS Developer ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "cd Test && node BasicNodeServer.js",
+    "countWord":"cd Test && node AsynchronousFileHandling.js",
+    "arraySum":"cd Test && node DataManipulation.js"
   },
   "author": "SreejitChaithanya",
   "license": "ISC",
